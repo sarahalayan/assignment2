@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+  }
+  
+ 
+.grid div {
+    display: flex; 
+    align-items: center; 
+  }
+  
+ 
+  .grid p {
+    margin-right: 10px; 
+  }
+
+  .grid p.label {
+    margin-right: 10px;
+    width: 100px; 
+    box-sizing: border-box; 
+  }
+  .input{
+    margin-right: 10px;
+  }
